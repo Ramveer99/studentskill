@@ -1,0 +1,76 @@
+.motivation-heading
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    color: rgb(231, 101, 101);
+}
+
+.cards-list {
+    z-index: 0;
+    width: 99%;
+    display: flex;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,18rem) !important;
+    grid-gap:19px;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: 220px;
+    height: 220px !important;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+  

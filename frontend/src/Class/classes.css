@@ -1,0 +1,146 @@
+.class-main
+{
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+
+
+
+.text-center {
+    text-align:center;
+}
+
+.bg-color {
+    background: var(--bg-color);
+  }
+  
+  .half-color-box {
+    background: var(--gradient);
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  
+  .text-whtie {
+    color: #fff !important;
+  }
+  
+  .bold {
+    font-weight: bolder;
+  }
+  
+  .por {
+    position: relative;
+  }
+  
+  .review-box .quote {
+    position: absolute;
+    width: 40px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  
+  .review-box {
+    border-radius: 10px;
+    background: #fff;
+    /* box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: 7px 8px 10px 1px #e29292; */
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);
+    padding: 30px;
+  }
+  
+  .review-box h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+  
+.review-box p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #7d8597;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+  
+  .user-post {
+    font-size: 14px;
+    margin: 0 !important;
+   
+  }
+  
+  .swiper-testimonial {
+    padding: 100px 20px;
+    padding-top: 30px;
+  }
+  
+  .half-color-box {
+    background: var(--gradient);
+    /* height: 300px; */
+    margin-bottom: 140px;
+}
+  
+  .test-arrowbox .swiper-button-next-test,
+  .test-arrowbox .swiper-button-prev-test {
+    margin-right: 20px;
+    /* background: var(--comp-color);2 */
+    border-radius: 50%;
+    --size: 55px;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-right {
+    transform: rotate(180deg);
+    margin-top: -8px;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .arrow:hover {
+    transform: translateX(-15px);
+  }
+  
+  .swiper-wrapper {
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.mr-3 {
+    /* border-radius: 50%; */
+    width: 80px;
+    height: 80px;
+}
+
+.media {
+    text-align: center;
+}
+.class-option
+{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4,20rem) !important;
+  grid-gap:20px;
+}
+.media img{
+  border-radius: 20%;
+}
+.header-track
+{
+
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgb(231, 101, 101);
+
+}

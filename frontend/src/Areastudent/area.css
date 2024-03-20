@@ -1,0 +1,368 @@
+
+.small-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+
+
+.test-para {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.main-parent-grid-2
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap:0px;
+    padding-bottom: 80px;
+	position:relative;
+	animation: fadeIn 1s ease-in both;
+	animation-delay: 6s;	
+}
+
+/*********Circle-around************/
+.hovicon {
+    display: inline-block;
+    /* font-size: 45px; */
+    /* line-height: 90px; */
+    cursor: pointer;
+    /* margin: 20px; */
+    width: 155px;
+    /* height: 175px; */
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+}
+
+.hovicon.small {
+    font-size: 20px;
+    line-height:45px;
+    width:45px;
+    height:45px;
+    margin:7px;
+}
+.hovicon.mini {
+    font-size: 15px;
+    line-height:32px;
+    width:30px;
+    height:30px;
+    margin:7px;
+}
+.hovicon.auto-width {
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+.hovicon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content:'';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.hovicon:before {
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Effect 4 */
+.hovicon.effect-4 {
+    width: 215px;
+    height: 215px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+	    text-align: center;
+}
+
+.hovicon.effect-4.small {
+    width:45px;
+    height:45px;
+}
+.hovicon.effect-4.mini {
+    width:30px;
+    height:30px;
+}
+
+.hovicon.effect-4:before {
+    line-height: 92px;
+}
+.hovicon.effect-4:after {
+    top: -4px;
+    left: -4px;
+    padding: 0;
+    z-index: 10;
+    border: 3px dashed #2574d1;
+}
+.hovicon.effect-4:hover {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    color: #fff;
+}
+.hovicon.effect-4:hover i {
+    color: #fff;
+}
+/* Effect 4b */
+ .hovicon.effect-4.sub-b:hover {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.hovicon.effect-4.sub-b:hover:after {
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+}
+
+.media-boddy{
+  width: 72%;
+  float: right;
+  text-align: left;
+  padding-right: 10px;
+}
+/*********Circle-around************/
+
+.circle-1 {
+    width: 75px;
+    margin-top: 37px;
+}
+
+.circle-2
+{
+        width: 80px;
+}
+
+.goals {
+    font-size: 35px;
+    padding: 21px 0px 7px 0px;
+    font-weight: 700;
+    text-align: center;
+    color: #4c84fb;
+    line-height: 18px;
+}
+
+.mt-70 {
+    margin-top: 54px;
+}
+
+.circle-vector-2 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    width: 18px;
+    transform: rotate(-26deg);
+}
+
+.circle-vector-3 {
+position: absolute;
+    right: 2%;
+    bottom: -20%;
+    z-index: -1;
+    width: 10px;
+    transform: rotate(-89deg);
+}
+
+/* Effect 4 */
+.hovicon.effect-4 {
+    width: 230px;
+    height: 230px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.hovicon.effect-4.small {
+    width:45px;
+    height:45px;
+}
+.hovicon.effect-4.mini {
+    width:30px;
+    height:30px;
+}
+
+.hovicon.effect-4:before {
+    line-height: 92px;
+}
+.hovicon.effect-4:after {
+    top: -4px;
+    left: -4px;
+    padding: 0;
+    z-index: 10;
+    border: 3px dashed #0049e4;
+}
+.hovicon.effect-4:hover {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    color: #fff;
+}
+.hovicon.effect-4:hover i {
+    color: #fff;
+}
+/* Effect 4b */
+ .hovicon.effect-4.sub-b:hover {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.hovicon.effect-4.sub-b:hover:after {
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+}
+
+
+
+/************keyframe-start**************/
+@-webkit-keyframes spinAround {
+from {
+-webkit-transform: rotate(0deg)
+}
+to {
+-webkit-transform: rotate(360deg);
+}
+}
+@-moz-keyframes spinAround {
+from {
+-moz-transform: rotate(0deg)
+}
+to {
+-moz-transform: rotate(360deg);
+}
+}
+@keyframes spinAround {
+from {
+transform: rotate(0deg)
+}
+to {
+transform: rotate(360deg);
+}
+}
+
+.hovicon.effect-4 p {
+    color: rgb(230, 19, 19);
+    font-size: 12px;
+    margin-top: 5px;
+    width: 160px !important;
+    height: 58px !important;
+    margin: 0 auto;
+    padding-top: 18px;
+    /* clip-path: polygon(48% 93%, 100% 57%, 95% 79%, 83% 100%, 22% 100%, 10% 85%, 0 66%); */
+    
+
+}
+
+.banner-sec img
+{
+    width:100%;
+}
+
+/************keyframe-end**************/
+:root {
+    --marquee-width: 80vw;
+    --marquee-height: 20vh;
+    /* --marquee-elements: 12; */ /* defined with JavaScript */
+    --marquee-elements-displayed: 5;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+  }
+  
+  .marquee {
+      background-color: #fff;
+      color: #eee;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+  }
+  
+  .marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+  }
+  
+  .marquee:before {
+      left: 0;
+      background: linear-gradient(to right, #fff 0%, transparent 100%);
+  }
+  
+  .marquee:after {
+    right: 0;
+    background: linear-gradient(to right, #fff 0%, transparent 100%);
+  }
+  
+  .marquee-content {
+      list-style: none;
+      height: 100%;
+      display: flex;
+      animation: scrolling var(--marquee-animation-duration) linear infinite;
+      gap: 40px;
+  }
+  /* .marquee-content:hover {
+    animation-play-state: paused;
+  } */
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+  }
+  .marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    flex-shrink: 0;
+    width: var(--marquee-element-width);
+    max-height: 100%;
+    font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+    white-space: nowrap;
+  }
+  
+  .marquee-content li img {
+      width: 100%;
+      /* height: 100%; */
+      border: unset;
+  }
+  
+ 
+
+/**************Carousel**************************/
+.owl-item
+{
+    width:100%;
+    margin-right: 10px;
+
+
+}
+
+.owl-item-cloned
+{
+    background: url('https://i0.wp.com/theloadstar.com/wp-content/uploads/photo-213310085--scharfsinn86-dreamstime.com_-1.jpg?fit=2466%2C1215&ssl=1') no-repeat
+    center top/cover;
+}
+
+.owl-carousel .owl-item img 
+{
+    display: block;
+    width: 100%;
+}
+
+.stakes
+{
+    justify-content: center;
+    text-align: center;
+    color: rgb(231, 101, 101);
+}

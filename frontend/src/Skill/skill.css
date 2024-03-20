@@ -1,0 +1,173 @@
+.cid-r1y0Nxk7Tg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #ffffff;
+}
+
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section, .container, .container-fluid {
+    position: relative;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+.col-md-12{
+position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+
+.cid-r1y0Nxk7Tg .mbr-section-title, .cid-r1y0Nxk7Tg .line-wrap {
+    text-align: center;
+}
+
+.display-2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem !important;
+    color: rgb(231, 101, 101);
+    margin-bottom: 42px;
+}
+.mbr-section-title {
+    font-style: normal;
+    line-height: 1.2;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 3rem!important;
+}
+
+.cid-r1y0Nxk7Tg .title-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1200px)
+{
+.container {
+    max-width: 1140px;
+}
+
+.col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+
+.mbr-section-title {
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.mbr-bold {
+    font-weight: 700;
+}
+
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+
+
+
+.display-5 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem !important;
+}
+
+
+.cid-r1y0Nxk7Tg .progress-primary {
+    background: #ebebeb;
+    border: none;
+    outline: none;
+}
+
+.cid-r1y0Nxk7Tg .progress {
+    width: 100%;
+}
+.cid-r1y0Nxk7Tg progress {
+    height: 20px;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+progress {
+    vertical-align: baseline;
+}
+progress {
+    vertical-align: baseline;
+}
+progress {
+    appearance: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    block-size: 1em;
+    inline-size: 10em;
+    vertical-align: -0.2em;
+}
+
+
+.cid-r1y0Nxk7Tg .progressbar-title p, .cid-r1y0Nxk7Tg .progress_value {
+    color: #656565;
+}
+.cid-r1y0Nxk7Tg p {
+    margin-bottom: 0.5rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.display-7 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+}
